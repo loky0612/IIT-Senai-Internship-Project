@@ -11,9 +11,11 @@
 .box {
     border-radius: 45px;
 }
-.i{
-    height: 91%;
+
+.i {
+    height: 98%;
 }
+
 .main,
 .min {
     border-radius: 45px;
@@ -22,6 +24,7 @@
 .min,
 .box {
     background-color: #5c9ce6;
+    height: 87%;
 }
 
 .add {
@@ -81,4 +84,61 @@
 
 .switch input:checked+.slider:before {
     transform: translateX(1.6em);
+}
+
+.chart {
+    width: 90%;
+}
+
+.more {
+    width: 90%;
+}
+
+.ic {
+    background-color: #5c9ce6;
+}
+
+.b {
+    background-color: #5c9ce6;
+}
+
+.card {
+    height: 35%;
+}
+
+.progress {
+    position: relative;
+    margin: 4px;
+    float: left;
+    text-align: center;
+}
+
+.barOverflow {
+    position: relative;
+    overflow: hidden;
+    width: 100px;
+    height: 70px;
+    margin-bottom: -14px;
+}
+
+.bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 10px solid #ccc;
+    border-bottom-color: #5c9ce6;
+    border-left-color: #5c9ce6;
+}
+.up{
+    width: 92%;
+}
+.details{
+    width: 90%;
+}
+.chart{
+    width: 93%;
 }

@@ -4,11 +4,14 @@ import newyork from '../Images/newyork.png';
 import '../App.css'
 import Country from './Country';
 import Degree from './Degree';
+import Header from './Header';
+import Chart from './Chart';
+import MoreDetails from './MoreDetails';
 
 
 const Weather = () => {
   return (
-    <div className='box w-5/6 h-5/6 flex'>
+    <div className='box w-5/6 flex'>
       <div className='min w-1/4 h-full rounded-3xl flex flex-col'>
         <Options />
         <Country/>
@@ -17,8 +20,10 @@ const Weather = () => {
           <img className='i newyork w-full ' src={newyork} alt='newyork' />
         </div>
       </div>
-      <div className='main w-3/4 h-full bg-blue-50 rounded-3xl'>
-        
+      <div className='main w-3/4 h-full bg-blue-50 rounded-3xl flex flex-col'>
+        <Header/> 
+        <Chart/>
+        <MoreDetails/>
       </div>
     </div>
   )
